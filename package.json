@@ -1,0 +1,24 @@
+{
+  "name": "digitalocean-hello-world",
+  "version": "1.0.0",
+  "description": "The hello world to DigitalOcean using Docker.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robertschaedler3/DigitalOcean-Hello-World.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robertschaedler3/DigitalOcean-Hello-World/issues"
+  },
+  "homepage": "https://github.com/robertschaedler3/DigitalOcean-Hello-World#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
